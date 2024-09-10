@@ -1622,3 +1622,140 @@ body {
     margin-right: 40px;
     cursor: pointer;
 }
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive Media Queries */
+  
+  /* Large Screens (Desktops) */
+  @media only screen and (min-width: 1200px) {
+    /* Adjust layout and spacing for large screens */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero-section {
+      height: 100vh;
+    }
+    .Boxes {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .Box {
+      width: 30%;
+      margin: 20px;
+    }
+    .feature-images {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .feature-images img {
+      width: 300px;
+      height: auto;
+      margin: 20px;
+    }
+  }
+  
+  /* Medium Screens (Laptops) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Adjust layout and spacing for medium screens */
+    .container {
+      max-width: 992px;
+      margin: 0 auto;
+      padding: 15px;
+    }
+    .hero-section {
+      height: 80vh;
+    }
+    .Boxes {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .Box {
+      width: 40%;
+      margin: 15px;
+    }
+    .feature-images {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .feature-images img {
+      width: 250px;
+      height: auto;
+      margin: 15px;
+    }
+  }
+  
+  /* Small Screens (Tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjust layout and spacing for small screens */
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    .hero-section {
+      height: 60vh;
+    }
+    .Boxes {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .Box {
+      width: 50%;
+      margin: 10px;
+    }
+    .feature-images {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .feature-images img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+    }
+  }
+  
+  /* Extra Small Screens (Mobiles) */
+  @media only screen and (max-width: 767px) {
+    /* Adjust layout and spacing for extra small screens */
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 5px;
+    }
+    .hero-section {
+      height: 40vh;
+    }
+    .Boxes {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Box {
+      width: 80%;
+      margin: 5px;
+    }
+    .feature-images {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .feature-images img {
+      width: 150px;
+      height: auto;
+      margin: 5px;
+    }
+  }
