@@ -1,5 +1,5 @@
 
-# Magik Elts - Ignite the Enchantment
+# Magik MElts - Ignite the Enchantment
 
 Welcome to Magik Elts, where every candle tells a story and sparks a little magic in your life. Our artisanal candles are crafted with care, blending premium waxes, enchanting fragrances, and mystical designs to create an unforgettable sensory experience.
 
